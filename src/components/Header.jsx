@@ -3,8 +3,8 @@ import React from 'react';
 function Header(){
     return(
         <header className="header">
-            <img src="../public/globe.png" alt="globe icon"/>
-            <span>React Facts</span>
+            <img src="public\assets\globe.png" alt="globe icon"/>
+            <span>my travel journal</span>
         </header>
     )
 }
