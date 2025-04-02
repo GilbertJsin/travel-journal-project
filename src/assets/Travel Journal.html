@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="./Travel Journal_files/client"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Travel Journal_files/css2" rel="stylesheet">
+    
+    <link rel="icon" type="image" href="http://localhost:5173/globe.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Journal</title>
+  <style type="text/css" data-vite-dev-id="/app/src/index.css">html, body, #root {
+  height: 100%;
+  margin: 0;  
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  height: 55px;
+  top: 0;
+  background-color: #F55A5A;
+  z-index: 100;
+  padding: 1rem;
+  margin: .5rem;
+  border-radius: 10px 10px 0 0; 
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > span{
+  padding-left: 5px;
+  font-size: larger;
+  font-weight: 500;
+}
+
+header > img {
+  width: 24px;
+}
+
+article.entry-article {
+  display: flex;
+}
+
+article.entry-article .entry-img-container{
+  width: 175px;
+  height: 150px;
+  margin-left: 8px;
+}
+
+article.entry-article .country-img{
+  width: 100%;
+  height: 100%;
+}
+
+.entry-container {
+  display: flex;
+  /* justify-content: space-between;  */
+  /* gap: 20px;  */
+}
+
+.entry-info {
+  padding-left: 20px;
+  padding-top: 10px;
+  flex: 1; 
+}
+
+.country-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.entry-info-map-link {
+  position: relative;
+  display: inline-block; /* Or block if you want it full-width */
+  width: 150px; /* Set your desired width */
+  height: auto;
+}
+
+.marker-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.country-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+</style></head>
+  <body>
+    <div id="root"><header class="header"><img alt="globe icon" src="./Travel Journal_files/globe.png"><span>my travel journal</span></header><main class="entry-container"><article class="entry-article"><div class="entry-img-container"><img class="country-img" src="./Travel Journal_files/mt_fuji.jpg"></div></article><article class="entry-info"><div class="entry-info-map-link"><img class="marker-img" src="./Travel Journal_files/marker.png"><span class="country-name">JAPAN</span></div><div class="entry-info-container"><p></p></div></article></main></div>
+    <script type="module" src="./Travel Journal_files/main.jsx"></script>
+  
+
+</body></html>
