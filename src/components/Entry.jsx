@@ -2,19 +2,6 @@ import React from 'react';
 
 function Entry(props){
     return(
-<<<<<<< HEAD
-        <article className="entry-article">
-            <div className="entry-img-container">
-                <img src="src\assets\mt_fuji.jpg" className="country-img"/>
-            </div>
-            <div className='entry-info'>
-                <div className='entry-info-container'>
-                    //TODO: fill out country info
-                </div>
-            </div>
-
-        </article>
-=======
         <main className="entry-container">
             <article className="entry-article">
                 <div className="entry-img-container">
@@ -42,7 +29,6 @@ function Entry(props){
                 </div> 
                 </article>
         </main>
->>>>>>> a69556a34ccf4f35defafcf887cafa2a3809d50f
     )
 }
 
