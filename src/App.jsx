@@ -10,13 +10,8 @@ function App() {
   const journalEntries = entryData.map((entry) =>(
     <Entry 
         key={entry.id}
-        locImg={entry.img}
-        markerImg={{ src: marker, alt: "Google Marker" }}
-        countryName= {entry.countryName}
-        mapLink= {entry.mapLink}
-        locationName= {entry.title}
-        travelDates= {entry.travelDates}
-        attractionFact= {entry.text}      
+        {...entry}          
+        markerImg={{ src: marker, alt: "Map marker icon" }}  
         /> 
     ));
 

@@ -7,8 +7,8 @@ function Entry(props){
                 <article className="entry-article">
                     <div className="entry-img-container">
                     <img 
-                        src={props.locImg.src} 
-                        alt={props.locImg.alt} 
+                        src={props.img.src} 
+                        alt={props.img.alt} 
                         className="country-img"
                     />
                     </div>
@@ -20,13 +20,13 @@ function Entry(props){
                         alt={props.markerImg.alt} 
                         className="marker-img"
                     />
-                    <span className="country-name">{props.countryName}</span>
-                    <a href={props.mapLink} className="google-map-link">View on Google Maps</a>
+                    <span className="country-name">{props.country}</span>
+                    <a href={props.googleMapsLink} className="google-map-link">View on Google Maps</a>
                     </div>
                     <div className="entry-info-container">
-                        <span className="attraction-location">{props.locationName}</span>
-                        <span className="visit-dates">{props.travelDates}</span>
-                        <span className="attraction-facts">{props.attractionFact}</span>
+                        <span className="attraction-location">{props.title}</span>
+                        <span className="visit-dates">{props.dates}</span>
+                        <span className="attraction-facts">{props.text}</span>
                     </div> 
                 </article>
             </div>
@@ -34,4 +34,4 @@ function Entry(props){
     )
 }
 
-export default Entry;
+export default Entry
